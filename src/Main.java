@@ -1,15 +1,15 @@
 public class Main {
     public static void main(String[] args) {
-        int contribution = 15000;
-        int total = 0;
         int i = 0;
-            while (total < 2_459_000) {
-                total = total + total / 100;
-                total = total + contribution;
-                i = i +1;
+        while (i < 10) {
+            i = i + 1;
+            System.out.print(i + " ");
+        }
+        System.out.println();
+            for (i = 10; i > 0; i--) {
 
-
-                System.out.println("Месяц " + i + " ,cумма накоплений равна " + total + "рублей.");
+                System.out.print(i + " ");
             }
         }
-    }
+   }
+
